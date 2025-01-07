@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+body {
+  background-color: #f0f0f0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  display: flex;
+  gap: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left-section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.right-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.left-section { width: 75%; }
+
+.right-section { width: 25%; }
+
+.box-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.right-box-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 180%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.field-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.field {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 10px;
+  width: 200px;
+  font-size: 13px;
 }
 
-.App-link {
-  color: #61dafb;
+.table-wrapper
+{
+  width: 1300px;
+  height: auto;
+  overflow: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.vertical-table-wrapper
+{
+  width: auto;
+  height: 670px;
+  overflow: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.order-status {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+.order-status td {
+  min-width: 140px;
+  height: 100px;
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item-search {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+.item-search td {
+  min-width: 130px;
+  height: 150px;
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item-search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.sublist {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sublist th, .sublist td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+  font-size: 9pt;
+}
+
+.clear-fields {
+  text-align: right;
+  margin-top: -20px;
+}
+
+.clear-fields a {
+  text-decoration: none;
+  color: #3399ff;
+  cursor: pointer;
 }
