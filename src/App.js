@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
-import Sections from "./components/sections";
+import { HashRouter as Router } from 'react-router-dom';
+import LandingPage from './LandingPage';
 
 const App = () => {
   return (
-    <div>
-      <Sections />
-    </div>
+       <Router>
+       <LandingPage />
+      </Router>
   );
 };
 
