@@ -1,3 +1,45 @@
+@font-face {
+  font-family: 'PanelTitles';
+  src: url('./resources/fonts/OracleSansFont/OracleSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PanelSubtitles';
+  src: url('./resources/fonts/OracleSansFont/OracleSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PanelNumberFooter';
+  src: url('./resources/fonts/OracleSansFont/OracleSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.panel-title {
+  font-family: 'PanelTitles';
+  font-size: 17pt;
+}
+
+.panel-subtitle {
+  font-family: 'PanelSubtitles';
+  font-size: 11pt;
+}
+
+.numbers-statistics {
+  font-family: 'PanelTitles';
+  font-size: 20pt;
+}
+
+.numbers-statistics-footer {
+  font-family: 'PanelNumberFooter';
+  font-size: 11pt;
+}
+
 body {
   background-color: #f0f0f0;
 }
